@@ -51,8 +51,7 @@ def findavgTime(processes, n):
 def priorityScheduling(proc, n): 
       
     # Sort processes by priority  
-    proc = sorted(proc, key = lambda proc:proc[2],  
-                                  reverse = True);  
+    proc = sorted(proc, key = lambda proc:proc[2], reverse = True)
   
     print("Order in which processes gets executed") 
     for i in proc: 
